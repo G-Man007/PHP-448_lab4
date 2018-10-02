@@ -9,7 +9,7 @@
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 20px;
-  border: 1px solid rgb(160, 120, 160);
+  border: 5px solid rgb(160, 120, 160);
 }
 
 .no_border{
@@ -34,4 +34,3 @@ tfoot{
 	background:pink;
 	color: black;
 }
-

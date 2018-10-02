@@ -3,6 +3,7 @@ function isPositive(str) {
   return (String(num) === str) && (num >= 0)
 }
 
+
 document.querySelector('form').addEventListener('submit', event => {
   let name = document.querySelector('input[name="name"]').value
   let password = document.querySelector('input[name="password"]').value
@@ -27,6 +28,11 @@ document.querySelector('form').addEventListener('submit', event => {
   // Non-Negative Values
   else if(!isPositive(product1) || !isPositive(product2) || !isPositive(product3) || !isPositive(product4) || !isPositive(product5) ) {
     alert("All product quantities must be equal to or greater than 0.")
+    event.preventDefault()
+  }
+
+  else if(product1==0 && product2==0 && product3==0 && product4==0 && product5==0 ) {
+    alert("Please buy at least one product to submit.")
     event.preventDefault()
   }
 })

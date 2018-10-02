@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>Da' Shoppy</title>
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="formChecker.js" defer></script>
+</head>
+<body>
+  <form action="customerBackend.php" method="post" class="form">
+    <h1 align="center">The Everything Store</h1>
+    <h3>User Information</h3>
+    Username: <input type="text" name="name"></input><br>
+    Password: <input type="password" name="password"></input><br>
+
+    <h3>Products</h3>
+
+    Basketball(s): <input type="number" name="product1" min="0" value="0">  ($16.25 each)<br>
+    Football(s): <input type="number" name="product2" min="0" value="0">   ($12.94 each)<br>
+    Jet Pack(s): <input type="number" name="product3" min="0" value="0"> ($149.99 each)<br>
+    Helmet(s): <input type="number" name="product4" min="0" value="0"> ($19.99 each)<br>
+    Micro Trebuchet(s): <input type="number" name="product5" min="0" value="0"> ($49.99 each)<br>
+
+    <h3>Shipping Preferences</h3>
+    <input type="radio" name="shippingPref" value="0" checked>(Free) 7 Day <br>
+    <input type="radio" name="shippingPref" value="50">($50.00) Overnight <br>
+    <input type="radio" name="shippingPref" value="5">($5.00) 3 Day <br>
+    <div class="center">
+      <input type="submit">
+      <input type="reset" value="Reset" class="reset-button">
+    </div>
+  </form>
+</body>
+</html>

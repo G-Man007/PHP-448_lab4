@@ -1,0 +1,37 @@
+.center{
+  text-align: center;;
+}
+.form
+{
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  border: 1px solid rgb(160, 120, 160);
+}
+
+.no_border{
+	border-collapse: collapse;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+td{
+	border: 1px solid grey;
+	padding: 3px;
+}
+
+th{
+	padding: 3px;
+	border: 1px solid grey;
+}
+
+tfoot{
+	background:pink;
+	color: black;
+}
+

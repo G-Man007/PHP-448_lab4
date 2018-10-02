@@ -9,11 +9,11 @@
   echo "Question 1: Who was George Washington's Vice President?<br>";
   echo "You answered: " . $q1 . "<br>";
   echo "Correct answer: John Adams<br><br>";
-  
+
   echo "Question 2: How old is the universe?<br>";
   echo "You answered: " . $q2 . "<br>";
   echo "Correct answer: 13.772 Billion Years Old<br><br>";
-  
+
   echo "Question 3: The 'Great Northern War' was primarily between which two countries?<br>";
   echo "You answered: " . $q3 . "<br>";
   echo "Correct answer: Russia & Sweden<br><br>";
@@ -25,11 +25,11 @@
   echo "Question 5: If you choose an answer to this question at random, what is the chance you will be correct?<br>";
   echo "You answered: " . $q5 . "<br>";
   echo "Correct answer: 25% || 50% <br><br>";
-	
+
   $temp = 0;
 	if($q1=="John Adams"){
 		$temp++;}
-	if($q2=="13.772 Billion Years Ago"){
+	if($q2=="13.772 Billion Years Old"){
 		$temp++;}
 	if($q3=="Russia & Sweden"){
 		$temp++;}
